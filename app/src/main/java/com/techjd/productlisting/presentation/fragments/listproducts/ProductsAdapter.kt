@@ -11,22 +11,22 @@ import com.techjd.productlisting.data.model.response.products.ProductsItem
 import com.techjd.productlisting.databinding.ItemProductBinding
 
 class ProductsAdapter :
-  ListAdapter<ProductsItem, ProductsAdapter.RestaurantViewHolder>(ProductsComparator()) {
+  ListAdapter<ProductsItem, ProductsAdapter.ProductsViewHolder>(ProductsComparator()) {
 
-  override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RestaurantViewHolder {
+  override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ProductsViewHolder {
     val binding =
       ItemProductBinding.inflate(LayoutInflater.from(parent.context), parent, false)
-    return RestaurantViewHolder(binding)
+    return ProductsViewHolder(binding)
   }
 
-  override fun onBindViewHolder(holder: RestaurantViewHolder, position: Int) {
+  override fun onBindViewHolder(holder: ProductsViewHolder, position: Int) {
     val currentItem = getItem(position)
     if (currentItem != null) {
       holder.bind(currentItem)
     }
   }
 
-  class RestaurantViewHolder(private val binding: ItemProductBinding) :
+  class ProductsViewHolder(private val binding: ItemProductBinding) :
     RecyclerView.ViewHolder(binding.root) {
 
     fun bind(product: ProductsItem) {
