@@ -21,7 +21,12 @@
 - Event Bus Pattern for Observing Internet
 
 ## Others :- 
-- Sealed Class to get generic responses 
+- Sealed Class to get generic responses
+
+## Note
+- The Image is not getting uploaded. The code for the image upload is written but needs more
+clarification regarding the key of that field.
+- No Special Permissions Required to download the app. 
 
 ## Video 
 
