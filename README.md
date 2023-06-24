@@ -26,7 +26,8 @@
 ## Note
 - The Image is not getting uploaded. The code for the image upload is written but needs more
 clarification regarding the key of that field.
-- No Special Permissions Required to download the app. 
+- No Special Permissions Required to download the app.
+- Download the apk from here :- https://drive.google.com/drive/folders/1UXJPPhYPQtiInMEjANZh4tocfoFZm3yU?usp=sharing  
 
 ## Video 
 
