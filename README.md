@@ -1,5 +1,28 @@
 # Product Listing
 
+## App Features :- 
+- Supports Both Light and Dark Mode
+- Handles Basic Situations like No Internet Connection
+- Handles Validation of Empty TextField
+- Search through products
+
+## Architecture Used :- MVVM
+
+## Libraries Used:-
+- Dagger Hilt for DI
+- Swipe Refresh Layout
+- Material 3
+- Retrofit 
+- Glide for Image Loading
+- Navigation Component for Navigation 
+- Android Image Cropper for Cropping Image
+
+## Patterns :- 
+- Event Bus Pattern for Observing Internet
+
+## Others :- 
+- Sealed Class to get generic responses 
+
 ## Video 
 
 https://github.com/techjd/Product-Listing/assets/28820868/d6768a99-2d7c-45eb-9129-58f715ea5a0b
